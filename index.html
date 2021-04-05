@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de prueba</title>
+
+    <style type="text/css">
+    * { margin:0;
+        padding: 0;
+    }
+    button {background-color: lightgrey;}
+    div {
+        background-color: moccasin;
+        margin: 12px;
+    }
+
+    #first-nav {
+        text-align: right;
+        padding: 20px;
+    }
+    #first-nav img {
+        height: 60px;
+        align-items: left;
+    }
+
+    #second-nav div {
+        text-align: center;
+        background-color: chocolate;
+                }
+    #second-nav h2, 
+    #second-nav button {
+        text-align: center;
+        margin:12px;
+    }
+    #items {
+        display:flex;
+        text-align: center;
+    }
+    #items div {
+        width: 25%;
+        display: inline-block;   
+        }
+    #items div h1 {
+        width: 100%;
+        
+    }
+    #fecha {
+        text-align: center;
+    }
+    #third-nav div {
+        width: 40%;
+        display: inline-block;
+    }
+    #third-nav img {height:150px}
+    #fourth-nav div {
+        width: 40%;
+        display: inline-block;
+    }
+    </style>
+    </head>
+<body>
+    <div id="first-nav"> 
+        <img src="img/imagen.jpg" alt="logo" />
+        <button>Bio</button>
+        <button>Oferta de cursos</button>
+        <button>Materiales</button>
+        <button>Contacto</button>
+            <div>
+        
+                <h1>LOREM IPSUM</h1></div>
+    </div id="second-nav">
+        <div id="fecha">
+            Fecha
+        </div>
+        <div id=items>            
+        <div>
+                <h2>Lorem ipsum 1</h2>
+                <caption>Describe1</caption>
+                <button>Más info</button>
+            </div>
+            <div>
+            <h2>Lorem ipsum 2</h2>
+            <caption>Describe2</caption>
+            <button>Más info</button>
+        </div>
+        <div>
+            <h2>Lorem ipsum 3</h2>
+            <caption>Describe3</caption>
+            <button>Más info</button>
+        </div>
+        
+    </div>
+    
+    <div id="third-nav"> 
+        <div>
+            <img src="img/imagen.jpg" alt="Foto bio"/>
+        
+            Bio resumida
+        </div>
+        <div>
+            Materiales
+            <img src="img/imagen.jpg" alt="Materiales"/>
+        </div>
+
+    </div>
+    <div id=fourth-nav>
+        <div>
+            <h2>Vías de contacto</h2>
+            <h3>LOREM IPSUM</h3>
+            <h3>LOREM IPSUM</h3>
+            <img src="img/imagen.jpg" alt="imagen vía de contacto"/>
+            <button>Red social1</button>
+            <button>Red social2</button>
+            <button>Red social3</button>
+        </div> 
+        <div>
+            <h2>LOREM IPSUM</h2>
+            <form name="formulario" method="post" action="/send.php">
+                <p>Email de contacto
+                    <input type="email" name="Email" value="email">
+                </p>
+                
+                <p>
+                    Cuerpo del mensaje
+                    <input type="text" name="Cuerpo del mensaje" value="Cuerpo del mensaje">
+                </p>
+            <button>Enviar</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
